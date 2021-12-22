@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!-- dtd path : document type definition -->
+<html>
+    <head>
+        <title>Trends Webiste</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp words from ur webpage" >
+        <meta name="author" content="put name of author" >
+        <meta name="description" content="put short descr">
+        <meta name="author" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-reliance-industries-limited-is-an-indian-multinational-conglomerate-company-industry-color-tal-revivo.png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style>
+          .error{
+            font-weight: bold;
+              color: red;
+          }
+      </style>
+    </head>
+    <body>
+        <div class="login-form-container">
+            <img
+              src="https://assets.ajio.com/medias/sys_master/root/hc6/h29/12023098966046/trends-logo.png"
+              class="login-website-logo-mobile-img"
+              alt="website logo"
+            />
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+              class="login-img"
+              alt="website login"
+            />
+            <form action="pagehome.html" class="form-container" onsubmit="return validateForm()" novalidate>
+              <img
+                src="https://assets.ajio.com/medias/sys_master/root/hc6/h29/12023098966046/trends-logo.png"
+                class="login-website-logo-desktop-img"
+                alt="website logo"
+              />
+              <h1>Welcome to Trends...</h1>
+              <div class="input-container">
+                <label class="input-label" htmlFor="username">USERNAME</label>
+                <input type="text" id="username" class="username-input-field" placeholder="Username"/>
+                <p id="error1" class="error"></p>
+              </div>
+              <div class="input-container">
+                <label class="input-label" htmlFor="password">PASSWORD</label>
+                <input type="password" id="password" class="password-input-field" placeholder="Password"/>
+                <p id="error2" class="error"></p>
+              </div>
+              <button type="submit" value="submit" class="login-button">
+                Login
+              </button>
+            </form>
+          </div>
+          <script src="login.js"></script>
+    </body>
+</html>

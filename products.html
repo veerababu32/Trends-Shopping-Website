@@ -1,0 +1,444 @@
+<!DOCTYPE html> <!-- dtd path : document type definition -->
+<html>
+    <head>
+        <title>Products Page</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp words from ur webpage" >
+        <meta name="author" content="put name of author" >
+        <meta name="description" content="put short descr">
+        <meta name="author" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-reliance-industries-limited-is-an-indian-multinational-conglomerate-company-industry-color-tal-revivo.png">
+        <link rel="stylesheet" href="products.css">
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/70a642cd7c.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav class="nav-header">
+            <div class="nav-content">
+              <div class="nav-bar-mobile-logo-container">
+                <a href="pagehome.html">
+                  <img
+                    class="website-logo"
+                    src="https://assets.ajio.com/medias/sys_master/root/hc6/h29/12023098966046/trends-logo.png"
+                    alt="website logo"
+                  />
+                </a>
+                <button
+                  type="button"
+                  class="nav-mobile-btn"
+                >
+                  <a href="index.html">
+                    <img
+                        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
+                        alt="nav logout"
+                        class="nav-bar-img"
+                  />
+                  <span>0</span>
+                  </a>
+                </button>
+              </div>
+              <div class="nav-bar-large-container">
+                <a href="pagehome.html">
+                  <img
+                    class="website-logo"
+                    src="https://assets.ajio.com/medias/sys_master/root/hc6/h29/12023098966046/trends-logo.png"
+                    alt="website logo"
+                  />
+                </a>
+                <ul class="nav-menu">
+                  <li class="nav-menu-item">
+                    <a href="pagehome.html" class="nav-link">
+                      Home
+                    </a>
+                  </li>
+      
+                  <li class="nav-menu-item">
+                    <a href=".products.html" class="nav-link">
+                      Products
+                    </a>
+                  </li>
+      
+                  <li class="nav-menu-item">
+                    <a href="pagecart.html" class="nav-link">
+                      Cart<span> 0</span>
+                    </a>
+                  </li>
+                </ul>
+                <a
+                  href="index.html"
+                  class="logout-desktop-btn"
+                >
+                  Logout
+              </a>
+              </div>
+            </div>
+            <div class="nav-menu-mobile">
+              <ul class="nav-menu-list-mobile">
+                <li class="nav-menu-item-mobile">
+                  <a href="pagehome.html" class="nav-link">
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
+                      alt="nav home"
+                      class="nav-bar-img"
+                    />
+                  </a>
+                </li>
+                <li class="nav-menu-item-mobile">
+                  <a href="products.html" class="nav-link">
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
+                      alt="nav products"
+                      class="nav-bar-img"
+                    />
+                  </a>
+                </li>
+                <li class="nav-menu-item-mobile">
+                  <a href="pagecart.html" class="nav-link">
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
+                      alt="nav cart"
+                      class="nav-bar-img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <section class="main">
+            <div class="products-sections">
+              <div class="all-products-container">
+                <h1 style="font-size: 36px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>All Products</b></h1>
+                <ul class="products-list">
+                  <li class="product-item">
+                    <img src="ac49ee59-ad1e-4c7c-a21c-8c357f3d25b41634099630038-Puma-Men-Sweatshirts-4321634099629586-1.webp" alt="product" class="thumbnail color" />
+                    <h1 class="title" id="shirt1">Puma SweaterShirt</h1>
+                    <div class="product-details">
+                      <p class="price">Rs <span id="price1">999</span>/-</p>
+                      <div class="rating-container">
+                        <p class="rating">4.0</p>
+                        <img
+                          src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                          alt="star"
+                          class="star"
+                        />
+                      </div>
+                    </div>
+                    <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+                  </li>
+                  <li class="product-item">
+                    <img src="57571a9e-68a4-40b3-ab55-9ab81adee1461632571013350-Calvin-Klein-Jeans-Men-Sweatshirts-6271632571012843-1.webp" alt="product" class="thumbnail color" />
+                    <h1 class="title">Calvin SweaterShirt</h1>
+                    <div class="product-details">
+                      <p class="price">Rs 1099/-</p>
+                      <div class="rating-container">
+                        <p class="rating">3.9</p>
+                        <img
+                          src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                          alt="star"
+                          class="star"
+                        />
+                      </div>
+                    </div>
+                    <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+                  </li>
+                <li class="product-item">
+                  <img src="571fa283-5593-40e6-abfa-2e7b618824171635852070934-ADBUCKS-Mens-Rich-Cotton-Winter-Wear-Hoodies-With-Full-Sleev-1.webp" alt="product" class="thumbnail color" />
+                  <h1 class="title">Flying Machine SweaterShirt</h1>
+                  <div class="product-details">
+                    <p class="price">Rs 899/-</p>
+                    <div class="rating-container">
+                      <p class="rating">3.8</p>
+                      <img
+                        src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                        alt="star"
+                        class="star"
+                      />
+                    </div>
+                  </div>
+                  <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+                </li>
+              <li class="product-item">
+                <img src="565c5671-51ff-4e21-80de-2d5d908abf6216388714222782-packSlimFitPolo-necktops1.webp" alt="product" class="thumbnail color" />
+                <h1 class="title">Polo SweaterShirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 999/-</p>
+                  <div class="rating-container">
+                    <p class="rating">3.7</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+            <li class="product-item">
+              <img src="6b83e0bb-4d22-411d-9641-b4658e9f8af01637657752536-Allen-Solly-Men-Sweatshirts-451637657751988-1.webp" alt="product" class="thumbnail color" />
+              <h1 class="title">Allen Solly SweaterShirt</h1>
+              <div class="product-details">
+                <p class="price">Rs 1299/-</p>
+                <div class="rating-container">
+                  <p class="rating">4.5</p>
+                  <img
+                    src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                    alt="star"
+                    class="star"
+                  />
+                </div>
+              </div>
+              <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+            </li>
+              <li class="product-item">
+                <img src="04dd3e0f-5cd3-4e55-ae7e-83517d48551e1636017920603-Mens-60-Cotton-40-Poly-Regular-Maroon-Sweat-Shirt-5191636017-1.webp" alt="product" class="thumbnail color" />
+                <h1 class="title">Flying Machine SweaterShirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 1199/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.1</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="03bf2e66-031e-431d-86f3-553c5d9e40931596693091044-HRX-by-Hrithik-Roshan-Men-Jackets-8291596693079279-1.webp" alt="product" class="thumbnail color" />
+                <h1 class="title">Puma SweaterShirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 999/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.2</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="2baa3df0-7590-4fcc-b291-9d84a775caa61633502646677-Computerised-Jacquard-Sweater-381633502646109-1.webp" alt="product" class="thumbnail color" />
+                <h1 class="title">Roadster SweaterShirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 699/-</p>
+                  <div class="rating-container">
+                    <p class="rating">3.6</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="person_4.jpg" alt="product" class="thumbnail" />
+                <h1 class="title">Goggles</h1>
+                <div class="product-details">
+                  <p class="price">Rs 499/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.6</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_1.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Smooth Cloth</h1>
+                <div class="product-details">
+                  <p class="price">Rs 499/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.6</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_2.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Blue suit</h1>
+                <div class="product-details">
+                  <p class="price">Rs 1099/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.5</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_3.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Women Black T-shirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 299/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.3</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_4.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Women T-Shirt</h1>
+                <div class="product-details">
+                  <p class="price">Rs 399/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.0</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_5.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Denim Jacket</h1>
+                <div class="product-details">
+                  <p class="price">Rs 999/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.9</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_6.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Brown Shoes</h1>
+                <div class="product-details">
+                  <p class="price">Rs 599/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.1</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="model_7.png" alt="product" class="thumbnail color" />
+                <h1 class="title">Yellow Jacket</h1>
+                <div class="product-details">
+                  <p class="price">Rs 799/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.5</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="product-1.jpg" alt="product" class="thumbnail" />
+                <h1 class="title">Knot Front Mini Dress</h1>
+                <div class="product-details">
+                  <p class="price">Rs 599/-</p>
+                  <div class="rating-container">
+                    <p class="rating">3.5</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="product-2.jpg" alt="product" class="thumbnail" />
+                <h1 class="title">Knot Front Mini Dress</h1>
+                <div class="product-details">
+                  <p class="price">Rs 699/-</p>
+                  <div class="rating-container">
+                    <p class="rating">3.8</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="product-3.jpg" alt="product" class="thumbnail" />
+                <h1 class="title">Knot Front Mini Dress</h1>
+                <div class="product-details">
+                  <p class="price">Rs 999/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.5</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              <li class="product-item">
+                <img src="product-4.jpg" alt="product" class="thumbnail" />
+                <h1 class="title">Knot Front Mini Dress</h1>
+                <div class="product-details">
+                  <p class="price">Rs 899/-</p>
+                  <div class="rating-container">
+                    <p class="rating">4.0</p>
+                    <img
+                      src="https://assets.ccbp.in/frontend/react-js/star-img.png"
+                      alt="star"
+                      class="star"
+                    />
+                  </div>
+                </div>
+                <button class="button add-to-cart-btn"><a>ADD TO CART</a></button>
+              </li>
+              </ul>
+              </div>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+          </section>
+          <script src="products.js"></script>
+    </body>
+</html>
